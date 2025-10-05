@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
       title: 'Galeria de Container',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Galeria construida con Container')
+          title: const Text('Galeria construida con Container'),
           ),
           body: SingleChildScrollView(
             child: Center(child: _buildImageColumn()),
